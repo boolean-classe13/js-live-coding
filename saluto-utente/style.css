@@ -1,0 +1,15 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* inizialmente il titolo che contiene il saluto è nascosto */
+#nome-container {
+    display: none;
+}
+
+/* aggiungendo una classe al tag del titolo, questo diventa visibile */
+#nome-container.visible {
+    display: block;
+}
